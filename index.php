@@ -88,9 +88,54 @@ echo '<br>';
 echo (max(10, 5, 14, 3, 78));// Maximum number search
 echo '<br>';
 echo (rand(1, 6));// Random number search like lodo goti
+echo '<br>';
 
+//variable php
+$x = 5;
+$y = 10;
 
-?>
+echo ($x);
+
+echo '<br>';
+
+//constant php
+define('a', 17);
+define('A',18);
+define('cars', ['BMW', 'Toyota', 'Mazda']);
+
+echo (cars[2]);
+var_dump(cars ); //for checking data type
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+//php math
+
+$b = 30;
+$c = 7;
+
+echo $b + $c; //jog kora
+
+echo '<br>';
+
+echo $b - $c; //biyog kora
+
+echo '<br>';
+
+echo $b * $c; //gon kora
+
+echo '<br>';
+
+echo $b / $c; //vag kora
+
+echo '<br>';
+
+echo $b % $c; //vagshes barkora
+
+echo '<br>';
+
+?> 
 
 
 
