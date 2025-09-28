@@ -14,6 +14,10 @@
     $Food = 'Burger';    
     echo 'I love to eat ' . $food . '<br>';
 
+echo '<br>';//for space
+echo '<br>'; //for space
+echo '<br>'; //for space
+
 /*
 masudrana
 masudrana
@@ -28,6 +32,9 @@ masud-rana
 $age = 40;
 echo 'My age is ' . $age . ', I study in class 12' . '<br>';
 
+echo '<br>';//for space
+echo '<br>'; //for space
+echo '<br>'; //for space
 
 ?>
 
@@ -43,6 +50,10 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
     $foods = print('Drinks');
     echo $foods;
 
+echo '<br>';//for space
+echo '<br>'; //for space
+echo '<br>'; //for space
+
     $name = 'Masud';
     $name2 = 'Rana';
     $age1  = 30;
@@ -53,7 +64,11 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
 
     var_dump($null);
 
-    //PHP object  *************
+    echo '<br>';//for space
+    echo '<br>'; //for space
+    echo '<br>'; //for space
+
+    //PHP object  **************************
     class phone {
         var $model;
         function phoneModel ($number){
@@ -69,7 +84,11 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
     $lg = new phone;
     $lg-> phoneModel('upcoming');
 
- //PHP String********
+    echo '<br>';//for space
+    echo '<br>'; //for space
+    echo '<br>'; //for space
+
+ //PHP String *************************
 
     echo strlen('I love to eat Pizza'); //for string er length check
     echo '<br>';
@@ -80,9 +99,12 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
     echo strpos('I love to eat Pizza', 'to'); //for string er length position
     echo '<br>';
     echo str_replace('Pizza', 'Burger','I love to eat Pizza'); //for string er length position
-    echo '<br>';
+    
+    echo '<br>';//for space
+    echo '<br>'; //for space
+    echo '<br>'; //for space
 
-//php number*********
+//php number *******************
 
 echo (pi()); //pie er value
 echo '<br>';
@@ -99,9 +121,11 @@ $y = 10;
 
 echo ($x);
 
-echo '<br>';
+echo '<br>';//for space
+echo '<br>'; //for space
+echo '<br>'; //for space
 
-//constant php***********
+//constant php ********************
 
 define('a', 17);
 define('A',18);
@@ -114,7 +138,7 @@ echo '<br>';
 echo '<br>';
 echo '<br>';
 
-//php math***************
+//php math ***********************
 
 $b = 30;
 $c = 4;
@@ -144,7 +168,7 @@ echo $b ** $c; //for power - qube and square
 echo '<br>';
 echo '<br>';
 
-// php assaignment operator************
+// php assaignment operator*********************
 
 // $e = 3;
 // $f = 5;
@@ -165,7 +189,7 @@ echo '<br>';
 echo '<br>';
 echo '<br>';
 
-// php if and else**************
+// php if and else********************
 
 //  $date = date('H');
 
@@ -186,7 +210,7 @@ echo 'Good Morning';
  echo '<br>';
  echo '<br>';
 
- //php switch ******
+ //php switch *******************
 
  switch('blue'){
     case 'red':
@@ -202,7 +226,7 @@ echo 'Good Morning';
 echo '<br>';
 echo '<br>';
 
- //php loop *************
+ //php loop *****************
 
   $x = 0;
 
@@ -211,14 +235,14 @@ echo '<br>';
 //     $x++; //ak ak kore barbe
 //   }
 
-//do while loop works as same as while loop*****
+//do while loop works as same as while loop***************
 
 // do{
 //     echo "The number is: $x <br>";
 //     $x++;
 // }while($x <= 50);
 
-//for loop ******
+//for loop **********************
 
 for($y = 0; $y <= 10; $y++){
     echo "The number is: $y <br>";
@@ -234,7 +258,7 @@ for($z = 0; $z <= 20; $z+=5){
 echo '<br>'; //for space
 echo '<br>'; //for space
 
-//php function *********
+//php function *******************
 
 function test_name($name, $age = 2){
   echo "This is $name, I am $age <br>"; //use $age = 2 for ignoring error
@@ -247,7 +271,7 @@ test_name("Shabiha");
 echo '<br>'; //for space
 echo '<br>'; //for space
 
-//php date and time *********
+//php date and time *******************
 
 date_default_timezone_set("Asia/Dhaka"); // for Timezone (like Bangladesh)
 echo "Today is " . date("d-m-Y") . "<br>"; //for date
