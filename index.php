@@ -53,7 +53,7 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
 
     var_dump($null);
 
-    //PHP object  
+    //PHP object  *************
     class phone {
         var $model;
         function phoneModel ($number){
@@ -69,7 +69,8 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
     $lg = new phone;
     $lg-> phoneModel('upcoming');
 
- //PHP String
+ //PHP String********
+
     echo strlen('I love to eat Pizza'); //for string er length check
     echo '<br>';
     echo str_word_count('I love to eat Pizza'); //for string er word count  
@@ -80,7 +81,9 @@ echo 'My age is ' . $age . ', I study in class 12' . '<br>';
     echo '<br>';
     echo str_replace('Pizza', 'Burger','I love to eat Pizza'); //for string er length position
     echo '<br>';
-//php number
+
+//php number*********
+
 echo (pi()); //pie er value
 echo '<br>';
 echo (min(10, 5, 14, 3, 78));// Minimum number search
@@ -98,7 +101,8 @@ echo ($x);
 
 echo '<br>';
 
-//constant php
+//constant php***********
+
 define('a', 17);
 define('A',18);
 define('cars', ['BMW', 'Toyota', 'Mazda']);
@@ -110,10 +114,10 @@ echo '<br>';
 echo '<br>';
 echo '<br>';
 
-//php math
+//php math***************
 
 $b = 30;
-$c = 7;
+$c = 4;
 
 echo $b + $c; //jog kora
 
@@ -134,6 +138,120 @@ echo '<br>';
 echo $b % $c; //vagshes barkora
 
 echo '<br>';
+
+echo $b ** $c; //for power - qube and square
+
+echo '<br>';
+echo '<br>';
+
+// php assaignment operator************
+
+// $e = 3;
+// $f = 5;
+
+// $e += $f; //$e = $e + $f; 
+
+// $e -= $f; //$e = $e + $f; 
+
+// $e *= $f; //$e = $e + $f; 
+
+// $e /= $f; //$e = $e + $f; 
+
+// $e %= $f; //$e = $e + $f; 
+
+// echo $e;
+
+
+echo '<br>';
+echo '<br>';
+
+// php if and else**************
+
+//  $date = date('H');
+
+//  if($date < 8){
+//     echo 'Good Morning' . $date;
+//  }else{
+//     echo 'Have a nice day!';
+//  }
+ 
+if(23 < 22){
+echo 'Good Morning';
+}elseif(22 < 21){
+    echo 'nice day';
+}else{
+     echo 'Have a nice day!';
+ }
+
+ echo '<br>';
+ echo '<br>';
+
+ //php switch ******
+
+ switch('blue'){
+    case 'red':
+        echo 'Apple is red'; 
+        break;
+    case 'green':
+        echo 'Mango is green'; 
+        break;
+    default: 
+        echo 'I love to eat fruits';
+ }
+
+echo '<br>';
+echo '<br>';
+
+ //php loop *************
+
+  $x = 0;
+
+//   while($x <= 5){
+//     echo "The number is: $x <br>";
+//     $x++; //ak ak kore barbe
+//   }
+
+//do while loop works as same as while loop*****
+
+// do{
+//     echo "The number is: $x <br>";
+//     $x++;
+// }while($x <= 50);
+
+//for loop ******
+
+for($y = 0; $y <= 10; $y++){
+    echo "The number is: $y <br>";
+}
+
+echo '<br>'; //for space
+echo '<br>'; //for space
+
+for($z = 0; $z <= 20; $z+=5){
+    echo "The number is: $z <br>";
+}
+
+echo '<br>'; //for space
+echo '<br>'; //for space
+
+//php function *********
+
+function test_name($name, $age = 2){
+  echo "This is $name, I am $age <br>"; //use $age = 2 for ignoring error
+}
+test_name("Masud", 37);
+test_name("Mehrab", 9);
+test_name("Shabiha");
+
+
+echo '<br>'; //for space
+echo '<br>'; //for space
+
+//php date and time *********
+
+date_default_timezone_set("Asia/Dhaka"); // for Timezone (like Bangladesh)
+echo "Today is " . date("d-m-Y") . "<br>"; //for date
+echo "It is " . date("h:i:sa") . "<br>";  // for time
 
 ?> 
 
